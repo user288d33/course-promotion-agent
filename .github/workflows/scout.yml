@@ -1,0 +1,70 @@
+name: Course promotion agent
+
+on:
+  workflow_dispatch:
+    inputs:
+      need:
+        description: "Optional learner need to match and draft for (this manual run never publishes)"
+        required: false
+        type: string
+  schedule:
+    - cron: "15 15 * * 1" # weekly public-topic scout
+    - cron: "15 16 * * *" # optional brand post once a day
+
+permissions:
+  contents: read
+
+jobs:
+  scout:
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '15 15 * * 1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Scout public questions
+        run: python agent.py scout --days 14 --out work/leads.json
+      - name: Draft a course-matched post for the supplied need
+        if: github.event_name == 'workflow_dispatch' && inputs.need != ''
+        env:
+          CAMPAIGN_NEED: ${{ inputs.need }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python agent.py draft --need "$CAMPAIGN_NEED" --out work/draft.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: public-topic-signals
+          path: |
+            work/leads.json
+            work/draft.json
+          if-no-files-found: error
+          retention-days: 7
+
+  publish:
+    if: vars.AUTO_PUBLISH == 'true' && github.event.schedule == '15 16 * * *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Scout recent learner needs
+        run: python agent.py scout --days 3 --out work/daily-leads.json
+      - name: Publish one contextual brand post
+        env:
+          AUTO_PUBLISH: "true"
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python agent.py publish --lead-file work/daily-leads.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: daily-campaign-record
+          path: |
+            work/publication-log.jsonl
+            work/daily-leads.json
+          if-no-files-found: ignore
+          retention-days: 30
