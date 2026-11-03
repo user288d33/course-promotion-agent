@@ -1,0 +1,47 @@
+{
+  "brand_name": "Practical Engineering Learning",
+  "brand_disclosure": "I'm Pedro Portugal, the instructor behind this course.",
+  "positioning": "Practical engineering education that connects scientific fundamentals to real engineering systems.",
+  "audiences": [
+    "engineering students",
+    "early-career engineers",
+    "manufacturing professionals",
+    "makers and inventors",
+    "technical learners building practical skills"
+  ],
+  "sales_process": [
+    "Understand the person's stated learning need.",
+    "Recommend a course only when its published outcomes address that need.",
+    "Explain the match and note prerequisites or scope limits that matter.",
+    "Offer one relevant course link as an optional next step.",
+    "If the fit is uncertain or weak, teach something useful without pitching."
+  ],
+  "routing_examples": [
+    {"need": "How do I prevent short shots and warping in injection molding?", "course_id": "plastics-2", "reason": "The course covers injection molding, process variables, and defect troubleshooting."},
+    {"need": "Which polymer should I choose for a hot automotive enclosure?", "course_id": "plastics-1", "reason": "The course covers polymer properties, thermal behavior, testing, and material selection."},
+    {"need": "How do extrusion, thermoforming, and polymer recycling work?", "course_id": "plastics-3", "reason": "The course covers industrial polymer processes and recycling."},
+    {"need": "How should I choose bearings, gears, belts, or a motor for a small machine?", "course_id": "practical-mechanics-1", "reason": "The course focuses on selecting and integrating common machine components."},
+    {"need": "How do I calculate stress, beam deflection, and fatigue in a custom bracket?", "course_id": "practical-mechanics-2", "reason": "The course covers custom design, stress, stiffness, deformation, and failure modes."},
+    {"need": "I need a foundation in mechanics, vibration, stress, and materials for engineering. ", "course_id": "applied-physics-1", "reason": "The course covers engineering mechanics, vibrations, and material behavior."},
+    {"need": "How do I analyze heat transfer, fluid flow, HVAC, or electronics cooling?", "course_id": "applied-physics-2", "reason": "The course covers thermodynamics, fluids, heat transfer, and engineering applications."},
+    {"need": "How are quantum mechanics, electromagnetism, and relativity used in technology?", "course_id": "applied-physics-3", "reason": "The course connects modern physics topics to engineering and technology."},
+    {"need": "What are MEMS and why does scaling change sensor behavior?", "course_id": "mems-1", "reason": "The course introduces MEMS, scaling laws, microscale mechanics, and actuation."},
+    {"need": "How do I model a MEMS accelerometer and understand resonance or capacitive sensing?", "course_id": "mems-2", "reason": "The course covers MEMS models, sensing, resonance, and device design."},
+    {"need": "How are MEMS chips fabricated, packaged, and tested?", "course_id": "mems-3", "reason": "The course covers micromachining, fabrication, packaging, and industrial testing."},
+    {"need": "How do digital twins, IIoT, OPC UA, or MQTT fit into a smart factory?", "course_id": "industry-4-0-1", "reason": "The course covers Industry 4.0 foundations and connected manufacturing."},
+    {"need": "How do cobots, AMRs, additive manufacturing, or smart materials change manufacturing?", "course_id": "industry-4-0-2", "reason": "The course covers advanced manufacturing technologies and their integration."},
+    {"need": "How can machine learning or computer vision detect equipment faults?", "course_id": "industry-4-0-3", "reason": "The course covers ML, fault detection, predictive maintenance, and industrial vision."},
+    {"need": "I want a guaranteed engineering job or a course on CAD software.", "course_id": null, "reason": "The catalog does not promise jobs or list a CAD course; do not force a recommendation."}
+  ],
+  "rules": [
+    "Posts must be useful without requiring a purchase.",
+    "Disclose the instructor's relationship to the course.",
+    "Never claim guaranteed career, salary, performance, or business outcomes.",
+    "Never invent prices, discounts, coupon availability, limited seats, testimonials, ratings, or student results.",
+    "Do not publish promotions as answers/comments/DMs in third-party communities.",
+    "Use only a course page that matches the subject of the post."
+  ],
+  "content_style": "Clear, technically grounded, concise, practical, helpful rather than pushy.",
+  "max_post_chars": 280,
+  "publication_platform": "Bluesky"
+}

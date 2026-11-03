@@ -1,0 +1,83 @@
+{
+  "checked_at": "2026-11-02",
+  "notes": "Policy snapshots are candidates, not permanent guarantees. Recheck the linked official rules before posting. The agent never auto-posts into third-party communities.",
+  "channels": [
+    {
+      "id": "bluesky-brand",
+      "name": "Bluesky brand feed",
+      "fit": "Best first owned channel for concise engineering explainers and course links.",
+      "audience_topics": ["engineering", "mechanics", "physics", "manufacturing", "robotics", "mems", "plastics", "education", "machine learning"],
+      "cost": "No-cost organic posting; current API has no published usage fee in the posting docs.",
+      "automation": "API publisher implemented; requires a separate brand account and app password.",
+      "promotion_status": "allowed_on_own_brand_feed",
+      "limits": "One scheduled post per UTC day in this MVP; avoid repetitive or misleading content.",
+      "source_url": "https://docs.bsky.app/docs/tutorials/creating-a-post"
+    },
+    {
+      "id": "udemy-promotional-email",
+      "name": "Udemy Promotional Email",
+      "fit": "Strong for offering another relevant Udemy course to learners already enrolled in one of your courses.",
+      "audience_topics": ["engineering", "mechanics", "physics", "manufacturing", "robotics", "mems", "plastics", "education"],
+      "cost": "Included Udemy instructor tool; no separate ad spend.",
+      "automation": "Not integrated; send inside Udemy Instructor tools.",
+      "promotion_status": "allowed_with_rules",
+      "limits": "Udemy currently allows up to two promotional emails per course per month, only to students of a course where you are a visible instructor; emails may include Udemy course links/coupons but not external links.",
+      "source_url": "https://support.udemy.com/hc/en-us/articles/229605908-Promotional-emails-Rules-and-guidelines"
+    },
+    {
+      "id": "youtube-educational-video",
+      "name": "YouTube educational video/channel",
+      "fit": "Useful for searchable engineering demonstrations and previews; requires creating substantive video content.",
+      "audience_topics": ["engineering", "mechanics", "physics", "manufacturing", "robotics", "mems", "plastics", "machine learning"],
+      "cost": "Organic channel is free; video production may take time; API access uses quota.",
+      "automation": "Not integrated. YouTube Data API supports uploads, but requires OAuth/channel setup.",
+      "promotion_status": "allowed_with_platform_rules",
+      "limits": "Use useful original educational content; avoid repetitive/automated mass-produced uploads, comment spam, or videos made only to push external traffic. External links are clickable only in supported locations and with required channel features.",
+      "source_url": "https://support.google.com/youtube/answer/2801973?hl=en"
+    },
+    {
+      "id": "hackaday-projects",
+      "name": "Hackaday.io project page",
+      "fit": "Potential fit when you have a real engineering build, prototype, or detailed project write-up related to a course topic.",
+      "audience_topics": ["engineering", "mechanics", "manufacturing", "robotics", "mems", "electronics"],
+      "cost": "Public project sharing appears free; confirm current account/feature terms.",
+      "automation": "Not integrated; publish a substantive project manually.",
+      "promotion_status": "conditional_manual_review",
+      "limits": "Treat as project documentation, not a bare course-ad channel. Current self-promotion rules need a fresh check before adding any course CTA.",
+      "source_url": "https://hackaday.io/projects/list"
+    },
+    {
+      "id": "instructables-projects",
+      "name": "Instructables tutorial",
+      "fit": "Potential fit for a complete, reproducible engineering build/tutorial that is useful on its own.",
+      "audience_topics": ["engineering", "mechanics", "manufacturing", "robotics", "physics", "inventors"],
+      "cost": "Public project publishing appears free; confirm current account/feature terms.",
+      "automation": "Not integrated; create a detailed tutorial manually.",
+      "promotion_status": "conditional_manual_review",
+      "limits": "Publish an original how-to with steps, media, and files; verify current link and promotion rules before mentioning a course.",
+      "source_url": "https://www.instructables.com/create/"
+    },
+    {
+      "id": "robotics-stackexchange",
+      "name": "Robotics Stack Exchange",
+      "fit": "Useful for discovering real robotics questions and topic demand.",
+      "audience_topics": ["robotics", "engineering", "sensors", "actuators"],
+      "cost": "Free to read and participate.",
+      "automation": "Scout signal only; no promotional answers, comments, or DMs.",
+      "promotion_status": "research_only",
+      "limits": "Q&A is for solving specific problems; avoid overt self-promotion and disclose affiliation when a relevant product/site is mentioned.",
+      "source_url": "https://robotics.stackexchange.com/help/behavior"
+    },
+    {
+      "id": "udemy-community",
+      "name": "Udemy Instructor Community",
+      "fit": "Useful for instructor support and peer discussion, not course customer acquisition.",
+      "audience_topics": ["instructor_support"],
+      "cost": "Free community.",
+      "automation": "Do not promote here.",
+      "promotion_status": "avoid_self_promotion",
+      "limits": "Udemy's community policy prohibits self-promotion and affiliate links.",
+      "source_url": "https://community.udemy.com/en/discussion/9355/self-promotion-policy-in-the-udemy-community/p1"
+    }
+  ]
+}

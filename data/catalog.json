@@ -1,0 +1,134 @@
+{
+  "owner": "Pedro Portugal",
+  "profile_url": "https://www.udemy.com/user/pedro-portugal-9/",
+  "retrieved_at": "2026-11-02",
+  "catalog_note": "Initial public-page scan. Verify course facts and URLs before campaigns; the instructor profile may not expose every course.",
+  "courses": [
+    {
+      "id": "applied-physics-1",
+      "title": "Applied Physics for Engineering I: Mechanics",
+      "url": "https://www.udemy.com/course/applied-physics-for-engineering-1/",
+      "audience": ["engineering students", "mechanical engineers", "manufacturing engineers", "aerospace engineers", "physics learners"],
+      "outcomes": ["apply Newtonian mechanics and energy conservation to engineering problems", "model vibrations and vibration control", "analyze stress, strain, deformation, and material failure"],
+      "prerequisites": "Engineering or physics foundations are recommended; course page targets engineering learners.",
+      "keywords": ["mechanics", "newtonian mechanics", "energy conservation", "lagrangian", "vibration", "vibrations", "damped vibration", "stress", "strain", "deformation", "materials science", "material failure", "failure analysis", "physics", "dynamics"]
+    },
+    {
+      "id": "applied-physics-2",
+      "title": "Applied Physics for Engineering II: Thermofluids",
+      "url": "https://www.udemy.com/course/applied-physics-for-engineering-2-thermofluids/",
+      "audience": ["engineering students", "mechanical engineers", "manufacturing engineers", "aerospace engineers", "thermal engineers"],
+      "outcomes": ["apply thermodynamics and fluid mechanics", "analyze conduction, convection, and radiation", "use thermofluid principles in HVAC, electronics cooling, aerodynamics, and energy systems"],
+      "prerequisites": "Engineering or physics foundations are recommended.",
+      "keywords": ["thermodynamics", "thermofluids", "fluid mechanics", "fluids", "heat transfer", "conduction", "convection", "radiation", "bernoulli", "navier stokes", "hvac", "thermal management", "cooling", "electronics cooling", "aerodynamics", "boiler", "heat exchanger", "entropy"]
+    },
+    {
+      "id": "applied-physics-3",
+      "title": "Applied Physics for Engineering III: Modern Physics",
+      "url": "https://www.udemy.com/course/physics-for-engineering-3-modern-physics/",
+      "audience": ["engineering students", "physics learners", "electronics engineers", "aerospace engineers"],
+      "outcomes": ["understand Maxwell's equations and electromagnetic applications", "connect optics, relativity, and quantum mechanics to technology", "explain applications such as GPS, motors, photonics, and advanced materials"],
+      "prerequisites": "Engineering or physics foundations are recommended.",
+      "keywords": ["modern physics", "electromagnetism", "maxwell", "optics", "relativity", "special relativity", "quantum mechanics", "quantum", "photonics", "gps", "quantum tunneling", "semiconductor", "materials science", "electromagnetic waves"]
+    },
+    {
+      "id": "mems-1",
+      "title": "Microelectromechanical Systems I: Fundamentals of MEMS",
+      "url": "https://www.udemy.com/course/microelectromechanical-systems-1-fundamentals-of-mems/",
+      "audience": ["mechanical engineers", "manufacturing engineers", "aerospace engineers", "electronics engineers", "physics students", "technicians"],
+      "outcomes": ["understand MEMS scaling laws and microscale physics", "model beams, plates, and anchors", "analyze electrostatic actuation, thermal effects, and silicon behavior"],
+      "prerequisites": "Course page targets senior/graduate engineering learners and experienced technicians.",
+      "keywords": ["mems", "microelectromechanical", "microscale", "scaling laws", "silicon", "semiconductor", "electrostatic actuation", "pull-in", "microstructure", "micro actuator", "microsensor", "accelerometer", "joule heating"]
+    },
+    {
+      "id": "mems-2",
+      "title": "Microelectromechanical Systems II: Design Principles",
+      "url": "https://www.udemy.com/course/microelectromechanical-systems-2-design-principles/",
+      "audience": ["mechanical engineers", "manufacturing engineers", "aerospace engineers", "electronics engineers", "physics students", "technicians"],
+      "outcomes": ["build lumped-element models for MEMS", "evaluate capacitive sensing, resonance, and Q-factor", "analyze thermal stress, buckling, and fatigue in microsystems"],
+      "prerequisites": "Course page targets senior/graduate engineering learners and experienced technicians; MEMS fundamentals are useful.",
+      "keywords": ["mems design", "mems modeling", "lumped element", "mass spring damper", "capacitive sensing", "resonance", "q factor", "accelerometer design", "micro sensor", "micro actuator", "buckling", "fatigue", "thermal stress"]
+    },
+    {
+      "id": "mems-3",
+      "title": "Microelectromechanical Systems III: Fabrication Fundamentals",
+      "url": "https://www.udemy.com/course/microelectromechanical-systems-3-fabrication-fundamentals/",
+      "audience": ["mechanical engineers", "manufacturing engineers", "aerospace engineers", "electronics engineers", "physics students", "technicians"],
+      "outcomes": ["compare bulk and surface micromachining", "understand lithography, deposition, and etching effects", "evaluate MEMS packaging, testing, and industrial constraints"],
+      "prerequisites": "Course page targets senior/graduate engineering learners and experienced technicians; MEMS I/II are useful.",
+      "keywords": ["mems fabrication", "micromachining", "bulk micromachining", "surface micromachining", "photolithography", "thin film deposition", "etching", "polymumps", "wafer packaging", "wire bonding", "flip chip", "mems testing", "yield", "microfabrication"]
+    },
+    {
+      "id": "practical-mechanics-1",
+      "title": "Practical Mechanics For Inventors I: Mechanical Components",
+      "url": "https://www.udemy.com/course/practical-mechanics-for-inventors-1-mechanical-components/",
+      "audience": ["engineering students", "aspiring mechanical engineers", "makers", "inventors", "machine designers"],
+      "outcomes": ["select fasteners, bearings, springs, shafts, and couplings", "evaluate gears, belts, chains, and linear motion", "choose motors and actuators based on torque, speed, power, and precision"],
+      "prerequisites": "Basic algebra and general familiarity with physics, forces, and motion are helpful; no prior machine-design experience required.",
+      "keywords": ["mechanical components", "machine components", "machine parts", "mechanical design", "machine design", "inventor", "maker", "bearing selection", "bearings", "fasteners", "springs", "shaft", "coupling", "gears", "gear ratio", "belt drive", "chain drive", "linear motion", "motor selection", "stepper motor", "servo", "actuator", "torque", "machine building"]
+    },
+    {
+      "id": "practical-mechanics-2",
+      "title": "Practical Mechanics For Inventors II: Designing Custom Parts",
+      "url": "https://www.udemy.com/course/practical-mechanics-for-inventors-2-designing-custom-parts/",
+      "audience": ["engineering students", "aspiring mechanical designers", "makers", "inventors", "product designers"],
+      "outcomes": ["translate requirements into mechanical designs", "calculate stresses and evaluate failure modes", "assess stiffness, deformation, vibration, mechanisms, and material tradeoffs"],
+      "prerequisites": "Practical mechanical design foundations are useful; verify exact entry requirements on the course page.",
+      "keywords": ["custom part", "mechanical design", "strength of materials", "stress analysis", "normal stress", "shear stress", "bending stress", "torsion", "stress concentration", "failure mode", "stiffness", "deflection", "beam deflection", "thermal expansion", "resonance", "damping", "material selection", "composite", "mechanism"]
+    },
+    {
+      "id": "industry-4-0-1",
+      "title": "Industry 4.0 I: Foundations of Smart Manufacturing",
+      "url": "https://www.udemy.com/course/industry4-part1-smart-manufacturing/",
+      "audience": ["engineering students", "manufacturing engineers", "industrial professionals", "technicians"],
+      "outcomes": ["understand Industry 4.0 foundations", "connect cyber-physical systems, IIoT, and digital twins", "recognize OPC UA and MQTT communication standards"],
+      "prerequisites": "Course page targets engineering/manufacturing learners; an engineering background is recommended.",
+      "keywords": ["industry 4.0", "smart manufacturing", "smart factory", "industrial iot", "iiot", "digital twin", "cyber physical systems", "opc ua", "mqtt", "connected factory", "manufacturing data", "predictive maintenance", "factory automation"]
+    },
+    {
+      "id": "industry-4-0-2",
+      "title": "Industry 4.0 II: Advanced Manufacturing Technologies",
+      "url": "https://www.udemy.com/course/industry-4_0-advanced-manufacturing-technologies/",
+      "audience": ["manufacturing engineers", "engineering students", "industrial professionals", "automation specialists"],
+      "outcomes": ["compare additive manufacturing technologies", "understand smart materials and advanced CNC", "integrate cobots and autonomous mobile robots into workflows"],
+      "prerequisites": "Industry 4.0 foundations are useful; verify exact prerequisites on the course page.",
+      "keywords": ["advanced manufacturing", "additive manufacturing", "3d printing", "smart materials", "advanced cnc", "cobot", "collaborative robot", "amr", "autonomous mobile robot", "manufacturing technology", "smart factory", "industry 4.0"]
+    },
+    {
+      "id": "industry-4-0-3",
+      "title": "Industry 4.0 III: Advanced Computational Technologies",
+      "url": "https://www.udemy.com/course/industry-40-iii-advanced-computational-technologies/",
+      "audience": ["engineering students", "manufacturing engineers", "software/computer engineers", "industrial technicians"],
+      "outcomes": ["understand supervised and unsupervised machine learning", "apply ML concepts to fault detection and predictive maintenance", "understand computer vision for industrial inspection"],
+      "prerequisites": "Course page targets engineering learners and technicians; check current page for exact requirements.",
+      "keywords": ["machine learning", "industrial ai", "computer vision", "image processing", "fault detection", "predictive maintenance", "bearing failure", "gear wear", "quality control", "classification", "clustering", "industry 4.0", "deep learning"]
+    },
+    {
+      "id": "plastics-1",
+      "title": "Plastics Engineering I: Intro To Polymers",
+      "url": "https://www.udemy.com/course/plastics-engineerin-1g-intro-to-polymers-and-their-properties/",
+      "audience": ["engineering students", "material scientists", "manufacturing professionals", "designers", "product developers"],
+      "outcomes": ["understand polymer science and structure", "compare mechanical and thermal properties", "use testing methods and material-selection reasoning"],
+      "prerequisites": "Course page targets engineering/material science learners and manufacturing professionals.",
+      "keywords": ["polymer", "polymers", "plastics", "polymer properties", "polymer selection", "choose a polymer", "select a polymer", "material selection", "automotive enclosure", "high temperature polymer", "hot automotive", "thermoplastic", "thermoset", "tensile strength", "impact resistance", "glass transition", "thermal degradation", "dsc", "tga", "dma", "ftir", "polymer testing"]
+    },
+    {
+      "id": "plastics-2",
+      "title": "Plastics Engineering II: Plastic Injection & Mold Design",
+      "url": "https://www.udemy.com/course/plastics-engineering-mold-design-for-polymer-processing/",
+      "audience": ["manufacturing engineers", "mold designers", "process engineers", "engineering students", "technicians"],
+      "outcomes": ["understand injection molding and mold components", "reason about gates, runners, cooling, and process variables", "troubleshoot common molding defects and design for manufacturability"],
+      "prerequisites": "Plastics Engineering I is optional according to the public course page.",
+      "keywords": ["injection molding", "mold design", "plastic mold", "short shot", "warping", "sink marks", "molding defects", "gate design", "runner", "hot runner", "cold runner", "cooling channel", "process variables", "blow molding", "compression molding", "iml"]
+    },
+    {
+      "id": "plastics-3",
+      "title": "Plastics Engineering III: Industrial Polymer Processing",
+      "url": "https://www.udemy.com/course/plastics-engineering-iii-industrial-polymer-processing/",
+      "audience": ["manufacturing engineers", "material scientists", "process engineers", "engineering students", "designers"],
+      "outcomes": ["understand extrusion, thermoforming, blow molding, and rotational molding", "evaluate additives and fiber reinforcements", "explore polymer recycling and industrial applications"],
+      "prerequisites": "Plastics Engineering I and II are optional according to the public course page.",
+      "keywords": ["polymer processing", "plastics processing", "extrusion", "thermoforming", "vacuum forming", "blow molding", "rotational molding", "polymer additives", "plasticizer", "glass fiber", "carbon fiber", "polymer recycling", "bioplastic", "sustainable plastics"]
+    }
+  ]
+}
